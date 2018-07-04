@@ -1,0 +1,119 @@
+body{
+  margin:0;
+  font-size: 0;
+  font-family: Montserrat,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+.logo h2{
+  text-shadow: 1px 1px 1px black;
+  margin:0;
+  font-size: 45px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+
+.menu li{
+  color: #b6e4e8;
+  text-shadow: 1px 1px 1px black;
+  margin: 0px 20px;
+  font-size: 14px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.description h1{
+  margin:0 auto 30px auto;
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.description p{
+  margin:0 auto 35px auto;
+  font-size: 20px;
+  color: #b6e4e8;
+  text-shadow: 1px .3px 1px black;
+}
+
+.description button{
+  position: relative;
+  overflow: hidden;
+  height: 56px;
+  line-height: 56px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 0 34px;
+  border: 1px solid #fff;
+  color: white;
+  text-align: center;
+  background-color: transparent;
+}
+
+.main-container{
+
+}
+
+.menu-container{
+  padding: 60px;
+  width: 100%;
+  height: 60px;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header{
+  border-top: 2px solid #0c0202;
+  width: 100%;
+  background-color: white;
+  display:flex;
+  justify-content: space-around;
+  padding: 25px 100px;
+  box-sizing: border-box;
+}
+
+.logo{
+  line-height: 0;
+}
+
+.logos{
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  color: rgb(154, 151, 151);
+}
+
+.main{
+  width: 100%;
+  height: 640px;
+  background-image: url('http://www.modafinilsale.com/data/out/533/233984249-tech-backgrounds-wallpaper.jpg');
+  background-size: cover;
+  background-color: hsla(0,0%,0%,0.4);
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  float: right;
+}
+
+.description {
+  height: 390px;
+  padding-top: 130px;
+}
+
+.start:hover{
+  cursor: pointer;
+  animation: addColor;
+  animation-duration: 5s;
+}
+
+@keyframes addColor {
+  from {background-color: transparent;}
+  to {background-color: #306a77;}
+}
