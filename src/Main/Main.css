@@ -1,7 +1,10 @@
 body{
+  background-size: contain;
+  background-repeat: no-repeat;
   margin:0;
   font-size: 0;
   font-family: Montserrat,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  background-image: url('http://maulanacreative.net/wp-content/uploads/2015/10/DeviceMockupsPreview2.jpg')
 }
 
 .logo h2{
@@ -13,8 +16,8 @@ body{
 }
 
 .menu li{
-  color: #b6e4e8;
-  text-shadow: 1px 1px 1px black;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #441818;
   margin: 0px 20px;
   font-size: 14px;
   list-style: none;
@@ -31,10 +34,10 @@ body{
 }
 
 .description p{
-  margin:0 auto 35px auto;
+  margin: 0 auto 35px auto;
   font-size: 20px;
-  color: #b6e4e8;
-  text-shadow: 1px .3px 1px black;
+  color: #ffffff;
+  text-shadow: 1px 0.3px 1px #461313;
 }
 
 .description button{
@@ -69,7 +72,6 @@ body{
 }
 
 .header{
-  border-top: 2px solid #0c0202;
   width: 100%;
   background-color: white;
   display:flex;
@@ -89,9 +91,11 @@ body{
 }
 
 .main{
+  filter: saturate(6) hue-rotate(-110deg);
+  opacity: .9;
   width: 100%;
   height: 640px;
-  background-image: url('http://www.modafinilsale.com/data/out/533/233984249-tech-backgrounds-wallpaper.jpg');
+  background-image: url('https://www.rxwallpaper.site/wp-content/uploads/orange-and-purple-backgrounds-53-images.jpg');
   background-size: cover;
   background-color: hsla(0,0%,0%,0.4);
 }

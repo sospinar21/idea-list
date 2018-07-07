@@ -8,7 +8,7 @@ class Main extends Component {
         <div className="main">
           <div className="menu-container">
             <div className="logo">
-              <h2>Idea List</h2>
+              <h2>SK Designs</h2>
             </div>
             <nav className='menu'>
               <li>Home</li>
