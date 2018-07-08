@@ -18,6 +18,10 @@ body{
   font-family: 'Anton', sans-serif;
 }
 
+.awc{
+  font-family: 'Cuprum', sans-serif;
+}
+
 .logo p{
   margin: -10px auto;
   font-size: 18px;
@@ -109,9 +113,20 @@ body{
 }
 
 .logos{
-  font-family: 'Cinzel', serif;
   font-size: 28px;
   color: rgb(154, 151, 151);
+}
+
+.rosenthal{
+  font-family: 'Cinzel', serif;  
+}
+
+.bpc{
+  font-family: 'Kaushan Script', cursive;
+}
+
+.dayt{
+  font-family: 'Courgette', cursive;
 }
 
 .main{

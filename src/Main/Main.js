@@ -25,10 +25,10 @@ class Main extends Component {
           </section>
         </div>
         <div className="header">
-          <div className='logos'>DayTrip</div>
-          <div className='logos'>AWC</div>
-          <div className='logos'>Rosenthal</div>
-          <div className='logos'>BPC</div>
+          <div className='logos dayt'>DayTrip</div>
+          <div className='logos awc'>AWC.dance</div>
+          <div className='logos rosenthal'>Rosenthal</div>
+          <div className='logos bpc'>Bellypassion</div>
           <div className='logos'>qBott</div>
         </div>
       </div>
