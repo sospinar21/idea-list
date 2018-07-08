@@ -1,4 +1,6 @@
 .tech-container{
+  display: flex;
+  justify-content: space-around;
   height: 330px;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -18,4 +20,29 @@
   font-size: 45px;
   color: #615d5d;
   transition: all 4s;
+}
+
+.tech{
+  width: 20%;
+  text-align: center;
+  height: 100%;
+  padding: 100px 10px;
+  box-sizing: border-box;
+}
+
+.tech i {
+  color: #f75247;
+  font-size: 80px;
+  text-align: center;
+}
+
+.tech i:hover{
+  color: #a22d65;
+  cursor: pointer;
+}
+
+.tech p{
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
 }

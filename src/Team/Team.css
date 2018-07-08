@@ -1,7 +1,6 @@
 .team-container{
   filter: hue-rotate(-14deg);
   width: 100%;
-  height: 900px;
   padding-top: 50px;
   background-image: url('http://www.psdgraphics.com/file/2018/summer-colors-wave-png.png');
   background-repeat:no-repeat;
@@ -11,9 +10,10 @@
 }
 
 .team-container h1{
+  margin: 40px;
   animation: moveItem 3s ease-in-out; 
   font-size: 45px;
-  color: #4c3d54;
+  color: #615d5d;
 }
 
 .team-members{
