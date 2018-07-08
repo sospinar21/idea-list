@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Main from '../Main/Main';
 import Work from '../Work/Work';
 import Team from '../Team/Team';
-import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer';
+import Tech from '../Tech/Tech'
 
 import './App.css';
 
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="App">
         <Main />
         <Work />
+        <Tech />
         <Team />
         <Footer />
       </div>

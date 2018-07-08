@@ -21,10 +21,11 @@
 	}
 }
 
-.work-container h1{
-  animation: moveItem 2s ease-in-out;   
+.work-container h1{  
   font-size: 45px;
   color: #615d5d;
+  opacity: .5;
+  transition: all 4s;
 }
 
 .projects{
@@ -64,14 +65,10 @@
   text-transform: capitalize;
 }
 
-@keyframes moveItem {
-  0% {
-    opacity: .2;
-  }
-  100%{
-    opacity: 1;
-  }
+.moveDiv{
+  opacity:1!important; 
 }
+
 
 .project-text p{
   font-size: 16px;
