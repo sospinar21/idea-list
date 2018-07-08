@@ -1,58 +1,70 @@
 import React, { Component } from 'react';
 import './Work.css';
+import Project from '../Project/Project'
+
 
 class Main extends Component {
+  constructor () {
+    super ()
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollEv);
+    this.state = {
+      projectVisible: false
+    }
   }
 
-  scrollEv = () => {
-    const title = document.querySelector('.work-title');
-    title.classList.add('moveDiv');
+  displayProject = () => {
+    console.log('here')
+    this.setState({projectVisible:!this.state.projectVisible})
   }
 
   render() {
+
+    if(this.state.projectVisible === true){
+      return(
+        <Project displayProject={this.displayProject}/>
+      )
+    }
+
     return (
-      <div className="work-container" onScroll={this.scrollEv}>
+      <div className="work-container" >
         <h1 className='work-title'>Our Latest Work</h1>
         <section className='projects'>
-          <article className='project'>
+          <article className='project' onClick={this.displayProject}>
             <div className='photo'></div>
             <div className='project-text'>
               <h2>DayTrip</h2>
               <p>Web application</p>
             </div>
           </article>
-          <article className='project'>
+          <article className='project' onClick={this.displayProject}>
             <div className='photo'></div>
             <div className='project-text'>
               <h2>DayTrip</h2>
               <p>Web application</p>
             </div>
           </article>
-          <article className='project'>
+          <article className='project' onClick={this.displayProject}>
             <div className='photo'></div>
             <div className='project-text'>
               <h2>DayTrip</h2>
               <p>Web application</p>
             </div>
           </article>
-          <article className='project'>
+          <article className='project' onClick={this.displayProject}>
             <div className='photo'></div>
             <div className='project-text'>
               <h2>DayTrip</h2>
               <p>Web application</p>
             </div>
           </article>
-          <article className='project'>
+          <article className='project' onClick={this.displayProject}>
             <div className='photo'></div>
             <div className='project-text'>
               <h2>DayTrip</h2>
               <p>Web application</p>
             </div>
           </article>
-          <article className='project'>
+          <article className='project' onClick={this.displayProject}>
             <div className='photo'></div>
             <div className='project-text'>
               <h2>DayTrip</h2>

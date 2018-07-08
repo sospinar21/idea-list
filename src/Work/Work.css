@@ -38,6 +38,7 @@
 }
 
 .project{
+  cursor: pointer;
   animation: float 6s ease-in-out infinite;    
   box-shadow: 1px 1px 1px #d3d3d347;
   width: 30%;

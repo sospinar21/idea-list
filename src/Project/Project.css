@@ -1,0 +1,78 @@
+.project-section{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    position: absolute;
+    z-index: 99;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin: 80px 10% 0;
+    padding:20px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 60px rgba(0,0,0,0.2);
+    box-shadow: 0 0 60px rgba(0,0,0,0.2);
+}
+
+.right{
+  float: right;
+  font-size: 28px;
+}
+
+.right:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.big-project{
+  background-color:#25292f;
+  width: 100vw;
+  height: 100vh;
+  animation: 1s opacity;
+}
+
+@keyframes opacity{
+  0%{
+    height: 50vh;
+  }
+  100%{
+    height: 100vh;
+  }
+}
+
+
+
+.p-picture{
+  flex:50;
+  background-color: red;
+  margin-right: 10px; 
+  background-image: url('https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png')
+
+}
+
+.p-description{
+  text-align: left;
+  flex:50;
+  padding: 40px;
+}
+
+.p-description h1{
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.p-description p{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.t-logos{
+  display: flex;
+}
+
+.dev-logos{
+  width: 35px;
+  margin: 10px;
+}

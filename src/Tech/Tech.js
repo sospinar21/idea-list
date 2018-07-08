@@ -3,20 +3,12 @@ import './Tech.css';
 
 class Main extends Component {
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollEv);
-  }
-
-  scrollEv = () => {
-    const title = document.querySelector('.work-title');
-    title.classList.add('moveDiv');
-  }
 
   render() {
     return (
       <div className='tech-section'>
         <h1>Services</h1>
-        <div className="tech-container" onScroll={this.scrollEv}>
+        <div className="tech-container" >
           <div className='tech'>
             <i class="material-icons">mobile_screen_share</i>
             <p>Mobile Apps</p>

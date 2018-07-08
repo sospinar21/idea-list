@@ -16,7 +16,7 @@ class Main extends Component {
           <div className='icon whatsapp'/>
           <div className='icon youtube'/>
         </div>
-        <h3> www.techhero.com || contact@techhero.com || (303) 987 6789</h3>
+        <h3> www.werkap.com || contact@werkap.com || (303) 987 6789</h3>
       </div>
     );
   }

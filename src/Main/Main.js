@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Main.css';
 
+
 class Main extends Component {
   render() {
     return (
@@ -19,9 +20,9 @@ class Main extends Component {
             </nav>
           </div>
           <section className="description">
-            <h1>We’re an App Design & Development Team</h1>
-            <p>Experts in mobile & web technologies. We create beautiful, functional mobile apps and websites.</p>
-            <button className='start'> Start a new Project</button>
+            <h1>We believe in your ideas!</h1>
+            <p>We're experts in mobile & web technologies. We create amazing, functional mobile apps and websites.</p>
+            <button className='start'> Let's start</button>
           </section>
         </div>
         <div className="header">
