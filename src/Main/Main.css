@@ -28,6 +28,11 @@ body{
   letter-spacing: 1.5px;
 }
 
+.menu li:hover{
+  font-size: 16px;
+  border-bottom: 1px solid orange;
+}
+
 .description h1{
   margin:0 auto 30px auto;
   font-size: 50px;
@@ -106,7 +111,7 @@ body{
   opacity: .9;
   width: 100%;
   height: 640px;
-  background-image: url('https://www.rxwallpaper.site/wp-content/uploads/orange-and-purple-backgrounds-53-images.jpg');
+  background-image: url('../assets/main-bgn.jpg');
   background-size: cover;
   background-color: hsla(0,0%,0%,0.4);
 }

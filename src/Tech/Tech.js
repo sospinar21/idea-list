@@ -23,7 +23,7 @@ class Main extends Component {
           </div>
           <div className='tech'>
             <i class="material-icons">desktop_windows</i>
-            <p>Desktop Apps</p>
+            <p>Desktop Apps</p>e
           </div>
           <div className='tech'>
             <i class="material-icons">web</i>
@@ -31,7 +31,7 @@ class Main extends Component {
           </div>
           <div className='tech'>
             <i class="material-icons">business</i>
-            <p>Small Business Apps Apps</p>
+            <p>Small Business Apps</p>
           </div>
           <div className='tech'>
             <i class="material-icons">account_box</i>

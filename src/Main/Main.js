@@ -12,8 +12,8 @@ class Main extends Component {
             </div>
             <nav className='menu'>
               <li>Home</li>
-              <li>Technologies</li>
               <li>Work</li>
+              <li>Technologies</li>
               <li>Team</li>
             </nav>
           </div>

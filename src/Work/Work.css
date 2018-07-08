@@ -3,7 +3,7 @@
   background-size: cover;
   padding-top: 80px;
   background-color: #f6f6f6;
-  background-image: url('http://www.psdgraphics.com/file/2018/summer-colors-wave-png.png');
+  background-image: url('../assets/wave.png');
 }
 
 @keyframes float {

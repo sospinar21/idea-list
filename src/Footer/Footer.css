@@ -1,6 +1,72 @@
 .footer{
   height: 300px;
-  background-color:rgb(5, 2, 2);
-  width: 100%;
+  background-color: rgb(241, 241, 241);  width: 100%;
   margin: 100px 0px 0px 0px;
+  padding: 50px;
+}
+
+.footer h2{
+  font-size: 30px;
+  color: rgb(44, 41, 41);
+  font-weight: 600;
+  word-spacing: 2px;
+}
+
+.footer h3{
+  font-size: 23px;
+  color: rgb(44, 41, 41);
+  font-weight: 400;
+  word-spacing: 2px;
+}
+
+.icons{
+  justify-content: space-around;
+  width: 52%;
+  padding: 20px;
+  height: 85px;
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.icon{
+  cursor: pointer;
+  background-size: contain;
+  height: 100%;
+  width: 10%;
+  background-repeat: no-repeat;
+  border-radius: 18%;
+}
+
+.face{
+  background-image: url('../assets/facebook.png')
+}
+
+.insta{
+  background-image: url('../assets/instagram.png')
+}
+
+.gh{
+  background-image: url('../assets/github.png')
+}
+
+.linkedin{
+  background-image: url('../assets/linkedin.png')
+}
+
+.pint{
+  background-image: url('../assets/pinterest.png')
+}
+
+.twi{
+  background-image: url('../assets/twitter.png')
+}
+
+.whatsapp{
+  background-image: url('../assets/whatsapp.png')
+}
+
+.youtube{
+  background-image: url('../assets/youtube.png')
 }

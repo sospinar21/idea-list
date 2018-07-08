@@ -2,7 +2,7 @@
   filter: hue-rotate(-14deg);
   width: 100%;
   padding-top: 50px;
-  background-image: url('http://www.psdgraphics.com/file/2018/summer-colors-wave-png.png');
+  background-image: url('../assets/wave.png');
   background-repeat:no-repeat;
   background-size: cover;
   transform: rotate(360deg);  
