@@ -3,8 +3,34 @@
   background-size: cover;
   padding-top: 80px;
   background-color: #f6f6f6;
-  background-image: url('../assets/wave.png');
+  /* background-image: url('../assets/wave.png'); */
 }
+
+.mainProject {
+  width: 100%;
+  background-image: url('../assets/daytrip-home-img.jpg');
+  height: 500px;
+  background-position-y: -175px;
+  position: relative;
+}
+
+.mainProject h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.mainProjectText {
+  position: absolute;
+  bottom: 90px;
+  left: 100px;
+}
+
+.mainProjectText p {
+  color: #fff;
+  font-size: 1rem;
+  text-align: left;
+}
+
 
 @keyframes float {
 	0% {
@@ -23,7 +49,7 @@
 
 .work-container h1{  
   font-size: 45px;
-  color: #605d5d;
+  color: #4c3d54;
   transition: all 4s;
 }
 
@@ -38,13 +64,16 @@
 
 .project{
   cursor: pointer;
-  animation: float 6s ease-in-out infinite;    
+  position: relative;
+  /* animation: float 6s ease-in-out infinite;     */
   box-shadow: 1px 1px 1px #d3d3d347;
   width: 30%;
   height: 500px;
   background-color: white;
-  margin: 30px 0px;
+  margin: 70px 0px;
   box-sizing: border-box;
+  background-size: cover;
+  background-position-y: -70px;
 }
 
 .photo{
@@ -57,11 +86,17 @@
 .project-text{
   padding: 20px;
   text-align: left;
+  width: calc(100% - 40px);
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  height: 120px;
 }
 
 .project-text h2{
-  font-size: 23px;
+  font-size: 1.65rem;
   font-weight: 500;
+  color: #4c3d54;
   text-transform: capitalize;
 }
 
@@ -69,10 +104,42 @@
   opacity:1!important; 
 }
 
-
-.project-text p{
-  font-size: 16px;
-  font-weight: 200;
+.project-text p {
+  font-size: 1rem;
+  width: 60%;
+  line-height: 1.5rem;
+  color: #777;
+  font-weight: 300;
   text-transform: capitalize;
 }
 
+.work-subtitle {
+  color: #777;
+  width: 80%;
+  height: 50px;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+  margin: 0 auto;
+}
+
+.project-1 {
+  background-image: url('../assets/evo-lite-homepage.jpg');
+}
+
+.project-2 {
+  background-image: url('../assets/viridis-homepage.jpg');
+}
+
+.project-3 {
+  background-image: url(/static/media/awc-homepage.a3adc009.jpg);
+  background-position-x: -75px;
+  background-position-y: -3px;
+}
+
+.fa { 
+  font-size: 34px;
+  color: #f75247;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
