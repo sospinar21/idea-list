@@ -11,8 +11,8 @@
   padding:88px 0px;
   text-align: center;
   background: #fff;
-  -webkit-box-shadow: 0 0 60px rgba(0,0,0,0.2);
-  box-shadow: 0 0 60px rgba(0,0,0,0.2);
+  -webkit-box-shadow:0 0 20px rgba(0, 0, 0, 0.11);
+  box-shadow:0 0 20px rgba(0, 0, 0, 0.11);
 }
 
 .tech-section h1{  

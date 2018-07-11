@@ -13,10 +13,10 @@ class Main extends Component {
               <p>TECH HEROES</p>
             </div>
             <nav className='menu'>
-              <li>Home</li>
-              <li>Work</li>
-              <li>Technologies</li>
-              <li>Team</li>
+              <a href='#'>Home</a>
+              <a href='#work'>Work</a>
+              <a href='#tech'>Services</a>
+              <a href='#team'>Team</a>
             </nav>
           </div>
           <section className="description">

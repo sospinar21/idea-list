@@ -28,7 +28,7 @@ class Main extends Component {
     }
 
     return (
-      <div className="work-container" >
+      <div className="work-container" id='work'>
         <h1 className='work-title'>Our Latest Work</h1>
         <p class="work-subtitle">Cras egestas varius posuere. Pellentesque hendrerit tempor auctor. Sed lacinia efficitur ornare. </p>
         <section className='projects'>

@@ -4,7 +4,7 @@ import './Team.css';
 class Main extends Component {
   render() {
     return (
-      <div className="team-container">
+      <div className="team-container" id='team'>
         <h1>Meet Our Team</h1>
         <section className='team-members'>
           <article className='team'>

@@ -6,7 +6,7 @@ class Main extends Component {
 
   render() {
     return (
-      <div className='tech-section'>
+      <div className='tech-section' id='tech'>
         <h1>Services</h1>
         <div className="tech-container" >
           <div className='tech'>

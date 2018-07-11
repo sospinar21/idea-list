@@ -31,19 +31,20 @@ body{
   font-family: 'Patrick Hand', cursive;
 }
 
-.menu li{
+.menu a{
+  list-style: none;
   cursor: pointer;
   color: #ffffff;
   text-shadow: 1px 1px 1px #441818;
   margin: 0px 20px;
   font-size: 14px;
-  list-style: none;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1.5px;
+  text-decoration: none;
 }
 
-.menu li:hover{
+.menu a:hover{
   font-size: 16px;
   border-bottom: 1px solid orange;
 }
