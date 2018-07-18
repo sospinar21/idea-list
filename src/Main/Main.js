@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './Main.css';
+import { configureAnchors } from 'react-scrollable-anchor'
+
+configureAnchors({offset: -60, scrollDuration: 600})
 
 
 class Main extends Component {
+
+
   render() {
     return (
       <div className="main-container">
@@ -14,9 +20,9 @@ class Main extends Component {
             </div>
             <nav className='menu'>
               <a href='#'>Home</a>
-              <a href='#work'>Work</a>
-              <a href='#tech'>Services</a>
-              <a href='#team'>Team</a>
+              <a href='#section1'>Work</a>
+              <a href='#section2'>Services</a>
+              <a href='#section3'>Team</a>
             </nav>
           </div>
           <section className="description">

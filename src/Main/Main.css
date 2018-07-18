@@ -4,13 +4,12 @@ body{
   margin:0;
   font-size: 0;
   font-family: Montserrat,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-  background-image: url('http://maulanacreative.net/wp-content/uploads/2015/10/DeviceMockupsPreview2.jpg')
 }
 
 .logo h2{
   font-weight: 200;
   letter-spacing: 2px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px #98929299;
   margin: 0;
   font-size: 50px;
   color: white;
@@ -35,9 +34,9 @@ body{
   list-style: none;
   cursor: pointer;
   color: #ffffff;
-  text-shadow: 1px 1px 1px #441818;
+  text-shadow: 1px 1px 1px #635656;
   margin: 0px 20px;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -57,10 +56,9 @@ body{
 }
 
 .description p{
-  margin: 0 auto 35px auto;
-  font-size: 20px;
+  margin: 0 auto 45px auto;
+  font-size: 21px;
   color: #ffffff;
-  text-shadow: 1px 0.3px 1px #461313;
 }
 
 .description button{
@@ -134,9 +132,8 @@ body{
   opacity: .9;
   width: 100%;
   height: 640px;
-  background-image: url('../assets/main-bgn.jpg');
   background-size: cover;
-  background-color: hsla(0,0%,0%,0.4);
+  background-image: url('../assets/bgn.jpg')  
 }
 
 .menu{
@@ -160,3 +157,4 @@ body{
   from {background-color: transparent;}
   to {background-color: #573077;}
 }
+

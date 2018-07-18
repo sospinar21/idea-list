@@ -12,6 +12,7 @@
   height: 500px;
   background-position-y: -175px;
   position: relative;
+  cursor: pointer;
 }
 
 .mainProject h2 {

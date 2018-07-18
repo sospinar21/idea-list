@@ -1,8 +1,10 @@
 .footer{
-  height: 300px;
-  background-color: rgb(241, 241, 241);  width: 100%;
+  box-sizing: border-box;
+  height: 282px;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
   margin: 100px 0px 0px 0px;
-  padding: 50px;
+  padding: 8px;
 }
 
 .footer h2{
@@ -17,6 +19,7 @@
   color: rgb(44, 41, 41);
   font-weight: 400;
   word-spacing: 2px;
+  margin: 10px;
 }
 
 .icons{

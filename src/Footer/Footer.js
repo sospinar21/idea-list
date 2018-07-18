@@ -11,7 +11,7 @@ class Main extends Component {
           <a href='https://www.instagram.com/werkap_official/?hl=en' target="_blank" className='icon insta'/>
           <a href='https://github.com/werkapp' target="_blank" className='icon gh'/>
           <a href='https://www.linkedin.com/company/werkap/' target="_blank" className='icon linkedin'/>
-          <a href='www.pinterest.com/werkap1801' target="_blank" className='icon pint'/>
+          <a href='https://www.pinterest.com/werkap1801' target="_blank" className='icon pint'/>
           <a href='https://twitter.com/werkap1' target="_blank" className='icon twi'/>
           <a href='' target="_blank" className='icon whatsapp'/>
           <a href='https://www.youtube.com/channel/UCdpwqO1Jr_7EVl6pVJURbUQ?view_as=subscriber' target="_blank" className='icon youtube'/>
