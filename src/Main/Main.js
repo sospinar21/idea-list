@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './Main.css';
-import { configureAnchors } from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor';
+import {Bgn} from '../Tech/bgn'
 
 configureAnchors({offset: -60, scrollDuration: 600})
 
@@ -13,8 +14,9 @@ class Main extends Component {
     return (
       <div className="main-container">
         <div className="main">
+        <Bgn/>
           <section className="description">
-            <h1>We believe in your ideas!</h1>
+            <h1>Build and Idea</h1>
             <p>We're experts in mobile & web technologies. We create amazing, functional mobile apps and websites.</p>
             <button className='start'> Let's start</button>
           </section>
