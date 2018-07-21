@@ -22,6 +22,69 @@
   font-size: large;
 }
 
+.menu-bottom{
+  padding: 49px 150px 5px 98px;
+  width: 100%;
+  height: 106px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  bottom:0;
+  background-color: #100f27;
+}
+
+.input-box{
+  position: relative;
+  width: 316px;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  margin-top: -15px;
+}
+
+.input-box input{
+  flex: 1;
+  width: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  color: #000;
+  border: 0.0625rem solid rgba(0,0,0,0.2);
+  border-radius: .1875rem;
+  transition: all 0.12s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.input-box button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 33%;
+  border-radius: .1875rem;
+  background-color: #fd9800;
+  border-color: transparent;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.03);
+  padding: .5em 1em .625em;
+}
+
+.subscribe{
+  margin-right: 18px;
+  line-height: 0;
+  font-size: 15px;
+  color: white;
+}
+
+.copy{
+  font-size: 15px;
+  color: #fff;
+  line-height: 0;
+}
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

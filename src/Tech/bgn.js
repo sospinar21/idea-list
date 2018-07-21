@@ -1,0 +1,17 @@
+import React from 'react';
+
+export const RightBgn = () => {
+  return (
+    <div className='l-bgn'>
+    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 738 446"><title>Group</title><defs><path id="a" d="M1 0L762.835938 4.54747351e-13 763 465 0.578125 465z"/><linearGradient x1="37.053%" y1="-38.735%" x2="33.786%" y2="95.07%" id="d"><stop stopColor="#2D1F98" offset="0%"/><stop stopColor="#E64C4C" offset="100%"/></linearGradient><path d="M790.44 465.14C585.043 470.55 352.643 314.608.42 268.04L216.906.702 790.44 465.14z" id="c"/><path d="M854.63 295.222c-171.392-16.932-364.738-8.846-644.378 52.087L490.93.702l363.702 294.52z" id="e"/><path d="M762.12 344.94c-21.206 3.467-40.68 6.868-61.144 9.956-262.85 39.657-374.53-72.245-552.12-121.827L337.021.702 762.12 344.94z" id="f"/><path d="M813.56 283.267c-214.876-117.213-398.197-52.501-588.71 13.528L464.748.805C702.47 191.94 818.74 286.093 813.56 283.267z" id="g"/></defs><g transform="rotate(180 381.5 223)" fill="none" fillRule="evenodd"><mask id="b" fill="#fff"><use href="#a"/></mask><g mask="url(#b)"><g transform="rotate(39 669.468 267.276)"><use fill="url(#d)" opacity=".35" transform="matrix(-1 0 0 1 790.86 0)" href="#c"/><use fill="url(#d)" opacity=".35" transform="matrix(-1 0 0 1 1064.883 0)" href="#e"/><use fill="url(#d)" opacity=".35" transform="matrix(-1 0 0 1 910.976 0)" href="#f"/><use fill="url(#d)" opacity=".35" transform="matrix(-1 0 0 1 1038.575 0)" href="#g"/></g></g></g></svg>
+    </div>
+  )
+}
+
+// export const LeftBgn = () => {
+//   return (
+//     <div className='r-bgn'>
+//       <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 591 464"><title>Group</title><defs><path id="a" d="M0.046875 4.03896783e-28L612.835937 4.54747351e-13 612.835938 489.320313 0.046875 489.320312z"/><linearGradient x1="37.053%" y1="-38.735%" x2="33.786%" y2="95.07%" id="d"><stop stopColor="#2D1F98" offset="0%"/><stop stopColor="#E64C4C" offset="100%"/></linearGradient><path d="M712.62 341.213c-45.69 21.805-97.585 49.194-151.819 78.699C395.237 509.983 225.664 437.7.181 361.347L292.184.75 712.62 341.213z" id="c"/><path d="M649.844 372.39c-63.146 4.142-136.084-2.996-218.813-21.412C272.693 315.73 133.37 286.046-37.813 283.43L191.415.75l458.43 371.64z" id="e"/><path d="M705.698 269.925c-157.801 34.344-301.262 61.58-429.786 80.97-73.288 11.058-133.28 9.745-187.698 1.903L373.296.751l332.402 269.174z" id="f"/><path d="M615.076 291.497c-184.841 67.233-334.687 68.019-447.425.203-36.232-21.796-71.53-38.715-106.076-50.81L256.035.75l359.041 290.746z" id="g"/></defs><g transform="translate(-22)" fill="none" fillRule="evenodd"><mask id="b" fill="#fff"><use href="#a"/></mask><g mask="url(#b)"><g transform="rotate(39 517.869 272.013)"><use fill="url(#d)" opacity=".35" transform="matrix(-1 0 0 1 712.801 0)" href="#c"/><use fill="url(#d)" opacity=".35" transform="matrix(-1 0 0 1 612.031 0)" href="#e"/><use fill="url(#d)" opacity=".35" transform="matrix(-1 0 0 1 793.912 0)" href="#f"/><use fill="url(#d)" opacity=".35" transform="matrix(-1 0 0 1 676.651 0)" href="#g"/></g></g></g></svg>
+//     </div>
+//   )
+// }

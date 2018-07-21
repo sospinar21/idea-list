@@ -13,18 +13,6 @@ class Main extends Component {
     return (
       <div className="main-container">
         <div className="main">
-          <div className="menu-container">
-            <div className="logo">
-              <h2>Werkap</h2>
-              <p>TECH HEROES</p>
-            </div>
-            <nav className='menu'>
-              <a href='#'>Home</a>
-              <a href='#section1'>Work</a>
-              <a href='#section2'>Services</a>
-              <a href='#section3'>Team</a>
-            </nav>
-          </div>
           <section className="description">
             <h1>We believe in your ideas!</h1>
             <p>We're experts in mobile & web technologies. We create amazing, functional mobile apps and websites.</p>

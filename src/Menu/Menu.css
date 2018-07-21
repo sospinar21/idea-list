@@ -1,0 +1,29 @@
+
+.after{
+  opacity: .9;
+  background-color: #000000a3;
+}
+
+.menu-container{
+  transition: background-color 0.4s ease-out;
+  z-index:90;
+}
+
+.menu-container{
+  padding: 49px 98px 5px 98px;
+  width: 100%;
+  height: 106px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  float: right;
+}

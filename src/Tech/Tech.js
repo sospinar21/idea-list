@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Tech.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
+import {RightBgn} from './bgn';
 
 class Tech extends Component {
 
@@ -11,26 +12,32 @@ class Tech extends Component {
         <div className='tech-section panel' id='tech' ref='services'> 
           <h1>Services</h1>
           <div className="tech-container" >
-            <div className='tech'>
-              <i class="material-icons">mobile_screen_share</i>
-              <p>Mobile Apps</p>
+            <div className='mobile-row'>
+              <div className='mob-pic'></div>
+              <div className='mob-desc'>
+                <h2 className='tech-title'>Mobile Apps</h2>
+                <p className='tech-p'>We're experts on building Native Mobile apps for iOS & Android and Progessive web apps.</p>
+                <b>cccccc</b>
+              </div>
             </div>
-            <div className='tech'>
-              <i class="material-icons">desktop_windows</i>
-              <p>Desktop Apps</p>e
+            <div className='website-row'>
+              <div className='web-desc'>
+                <h2 className='tech-title'>Websites and Web Apps</h2>
+                <p className='tech-p'>From websites, Web Apps and online stores, to marketing tools and analytics. </p>
+                <b>qqqqq</b>
+              </div>
+              <div className='web-pic'></div>
             </div>
-            <div className='tech'>
-              <i class="material-icons">web</i>
-              <p>Websites</p>
+            <div className='portfolio-row'>
+              <div className='portfolio-pic'></div>
+              <div className='portfolio-desc'>
+                <h2 className='tech-title'>Portfolios</h2>
+                <p className='tech-p'>We build stunning and responsive personal sites that will make you stand out from the competition.</p>
+                <b>cccccc</b>
+              </div>
             </div>
-            <div className='tech'>
-              <i class="material-icons">business</i>
-              <p>Small Business Apps</p>
-            </div>
-            <div className='tech'>
-              <i class="material-icons">account_box</i>
-              <p>Portfolios</p>
-            </div>          
+            
+          <RightBgn />
           </div>
         </div>
       </ScrollableAnchor>

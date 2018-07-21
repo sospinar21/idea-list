@@ -8,28 +8,29 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     max-width: 1100px;
-    margin: 80px 10% 0;
+    margin: 139px 10% 0;
     padding:20px;
     background: #fff;
     -webkit-box-shadow: 0 0 60px rgba(0,0,0,0.2);
     box-shadow: 0 0 60px rgba(0,0,0,0.2);
-}
-
-.right{
-  float: right;
-  font-size: 28px;
-}
-
-.right:hover{
-  color: red;
-  cursor: pointer;
-}
-
-.big-project{
-  background-color:#25292f;
-  width: 100vw;
-  height: 100vh;
-  animation: 1s opacity;
+  }
+  
+  .right{
+    float: right;
+    font-size: 28px;
+  }
+  
+  .right:hover{
+    color: red;
+    cursor: pointer;
+  }
+  
+  .big-project{
+    background-color:#25292f;
+    width: 100vw;
+    height: 100vh;
+    animation: 1s opacity;
+    background-image: url('../assets/bgn.jpg');
 }
 
 @keyframes opacity{

@@ -13,14 +13,14 @@ class Main extends Component {
               <div className='pic steph'></div>
               <div className='person-text'>
                 <h2>Stephanie Ospina</h2>
-                <p>Business oriented, tech driven software developer with a passion for designing and building solutions that make life easier for businesses and consumers. Over 10 years of entrepreneurial experience as Owner/Founder of Bogota’s 2nd largest dance academy (400+ students). Managed all aspects of small business logistics, from customer service and marketing to inventory management and accounting.</p>
+                <p>As head of business, Stephanie leads business growth and go-to market efforts, including sales, marketing, business development, and customer operations. Before founding Werkap, Stephanie founded Bellypassion.</p>
               </div>
             </article>
             <article className='team'>
               <div className='pic tyler'></div>
               <div className='person-text'>
                 <h2>Tyler</h2>
-                <p>Results-driven, entrepreneurial, and innovative software developer with over 7 years of web development experience and online marketing management. A team player with a lifelong love of problem solving, design, and technology has led me to a career in my passion, programming.</p>
+                <p>Results-driven, entrepreneurial, and innovative software developer with over 7 years of web development experience and online marketing management. A team player with a lifelong love of problem solving, design and technology.</p>
               </div>
             </article>
             <article className='team'>
