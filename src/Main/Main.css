@@ -142,6 +142,7 @@ body{
   position: absolute;
   z-index: -1;
   filter: hue-rotate(62deg);
+  width: 100vw;
 }
 
 @keyframes addColor {

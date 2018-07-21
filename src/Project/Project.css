@@ -30,7 +30,7 @@
     width: 100vw;
     height: 100vh;
     animation: 1s opacity;
-    background-image: url('../assets/bgn.jpg');
+    /* background-image: url('../assets/bgn.jpg'); */
 }
 
 @keyframes opacity{

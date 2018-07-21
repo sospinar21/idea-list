@@ -16,7 +16,7 @@ class Main extends Component {
         <div className="main">
         <Bgn/>
           <section className="description">
-            <h1>Build and Idea</h1>
+            <h1>Build an Idea</h1>
             <p>We're experts in mobile & web technologies. We create amazing, functional mobile apps and websites.</p>
             <button className='start'> Let's start</button>
           </section>
